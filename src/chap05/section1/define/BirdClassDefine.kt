@@ -1,7 +1,7 @@
 package chap05.section1.define
 
 class Bird{
-    var anem: String = "mybird"
+    var name: String = "mybird"
     var wing : Int =2
     var beak: String = "short"
     var color: String = "blue"

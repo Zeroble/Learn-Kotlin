@@ -20,4 +20,10 @@ fun main() {
 
     products.sortBy { elem -> -elem.name.length }
     products.forEach { elem -> println(elem) }
+    println(products.contentToString())
+
+    // Array Plus Test
+    var arr = arrayOf(1,2,3)
+    println(arr.plus(1).contentToString())
+    println(arr.contentToString())
 }

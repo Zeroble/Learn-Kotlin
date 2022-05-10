@@ -22,6 +22,10 @@ fun main() {
     products.forEach { elem -> println(elem) }
     println(products.contentToString())
 
+    // 가장 작은 값과 가장 큰 값 골라내기
+    println(products.minOf{it.price})
+    println(products.maxOf{it.price})
+
     // Array Plus Test
     var arr = arrayOf(1,2,3)
     println(arr.plus(1).contentToString())
